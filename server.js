@@ -10,7 +10,7 @@ http.createServer(app).listen(app.get('port'), app.get('ip'), function(){
 });
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello My Friend!');
 });
 
 //http.createServer(app).listen(3000, function(){
